@@ -2,7 +2,6 @@
 
 Implementation of a **secure client–server communication system** using **Python sockets with TLS (SSL)**. This project demonstrates encrypted communication along with basic **TLS fingerprinting techniques** to extract connection-level details.
 
----
 
 ## Overview
 
@@ -13,7 +12,6 @@ This project simulates a secure network environment where:
 * All communication is **encrypted using SSL/TLS**
 * The server responds with **fingerprinting data** about the secure session
 
----
 
 ## Features
 
@@ -27,7 +25,6 @@ This project simulates a secure network environment where:
 * Lightweight and easy-to-understand implementation
 * Uses **OpenSSL-generated certificates**
 
----
 
 ## How It Works
 
@@ -39,8 +36,6 @@ This project simulates a secure network environment where:
    * Sends back fingerprinting information
 4. Each client connection is handled in a **separate thread**
 
-
----
 
 ## Team
 
