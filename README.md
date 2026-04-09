@@ -39,8 +39,8 @@ This project simulates a secure network environment where:
 
 ## Team
 
-[abhiram289](https://github.com/abhiram289)
-[nmsr21](https://github.com/NSMR21)
+[abhiram289](https://github.com/abhiram289),
+[nmsr21](https://github.com/NSMR21),
 [majesticraven1](https://github.com/majesticraven1)
 
 
