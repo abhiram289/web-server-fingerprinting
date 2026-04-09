@@ -1,18 +1,51 @@
-# TLS Secure Client–Server Fingerprinting (CN Mini Project)
+# TLS Secure Client–Server Fingerprinting
 
-This project implements a basic secure client–server communication system using **Python sockets and TLS (SSL)**. The server runs on a Linux machine and accepts connections from multiple clients. Communication between the server and clients is encrypted using TLS.
+Implementation of a **secure client–server communication system** using **Python sockets with TLS (SSL)**. This project demonstrates encrypted communication along with basic **TLS fingerprinting techniques** to extract connection-level details.
 
-When a client connects and sends a message, the server responds with **fingerprinting information**, including details such as the server banner, TLS version, and cipher suite used for the secure connection.
+---
 
-The server is designed to handle multiple clients simultaneously using **threading**.
+## Overview
 
-## Technologies Used
+This project simulates a secure network environment where:
 
-* Python (socket programming)
-* TLS/SSL for secure communication
-* Multithreading for handling multiple clients
-* OpenSSL for certificate generation
+* A **TLS-enabled server** listens for incoming client connections
+* Multiple clients can connect simultaneously
+* All communication is **encrypted using SSL/TLS**
+* The server responds with **fingerprinting data** about the secure session
 
-## Status
+---
 
- **In Progress**
+## Features
+
+* **Secure Communication** using TLS/SSL
+* **Multithreaded Server** to handle multiple clients concurrently
+* **TLS Fingerprinting**, including:
+
+  * TLS version
+  * Cipher suite used
+  * Server banner/info
+* Lightweight and easy-to-understand implementation
+* Uses **OpenSSL-generated certificates**
+
+---
+
+## How It Works
+
+1. The server initializes a **TLS context** using SSL certificates
+2. Clients establish a secure connection using **wrapped sockets**
+3. Upon receiving a message from the client:
+
+   * The server extracts TLS session details
+   * Sends back fingerprinting information
+4. Each client connection is handled in a **separate thread**
+
+
+---
+
+## Team
+
+
+
+
+
+
