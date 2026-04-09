@@ -1,6 +1,6 @@
 # TLS Secure Client–Server Fingerprinting
 
-Implementation of a **secure client–server communication system** using **Python sockets with TLS (SSL)**. This project demonstrates encrypted communication along with basic **TLS fingerprinting techniques** to extract connection-level details.
+Implementation of a **secure client–server communication system** using **Python sockets with TLS (SSL)**. This project demonstrates encrypted communication along with basic **TLS fingerprinting techniques** to extract connection-level details
 
 
 ## Overview
